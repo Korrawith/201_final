@@ -3,7 +3,7 @@
 
 int main(){
 	
-	int n,a,i,j,min,temp;
+	int n,i,j,min=0,temp=0;
 	
 	scanf("%d",&n);
 	
@@ -12,8 +12,8 @@ int main(){
 	int m[n];
 	
 	for(i=0;i<n;i++){
-		scanf("%d",m[i]);
-		fflush(stdin);
+		scanf("%d",&m[i]);
+	
 	}
 
 	for(i=0;i<n;i++){
